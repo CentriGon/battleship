@@ -29,4 +29,6 @@ const shipFactory = function(length, coordinates) {
     return {getLength, setIsDown, getIsDown, getCoordinates, setCoordinates}
 }
 
-module.exports = {shipFactory}
+// module.exports = {shipFactory}
+
+export {shipFactory};
